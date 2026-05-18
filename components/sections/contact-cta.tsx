@@ -36,8 +36,8 @@ export function ContactCta() {
             <div className="mt-6 flex flex-col gap-3 text-sm opacity-80">
               <p>
                 <span className="font-semibold">Phone: </span>
-                <a href="tel:2077770198" className="hover:opacity-100">
-                  (207) 777-0198
+                <a href="tel:2073452207" className="hover:opacity-100">
+                  (207) 345-2207
                 </a>
               </p>
               <p>

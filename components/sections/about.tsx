@@ -46,7 +46,7 @@ export function About() {
             <div className="absolute -right-4 top-8 bg-primary px-5 py-4 text-primary-foreground">
               <p className="font-heading text-3xl font-semibold">Maine</p>
               <p className="text-[10px] font-semibold tracking-widest uppercase opacity-80">
-                Born &amp; raised
+                Licensed Realtor
               </p>
             </div>
           </div>
@@ -54,27 +54,26 @@ export function About() {
           <div className="flex flex-col gap-6">
             <div>
               <p className="text-[10px] font-semibold tracking-widest uppercase text-primary">
-                A bit about me
+                About Eve
               </p>
               <h2 className="mt-3 font-heading text-3xl font-semibold leading-tight md:text-4xl">
-                I got into this work because buying a home changed my life.
+                A client-first approach to buying a home in Maine.
               </h2>
             </div>
             <div className="flex flex-col gap-4 text-muted-foreground">
               <p className="leading-relaxed">
-                Hi, I&apos;m Eve Ali. I&apos;m a buyer&apos;s agent based in
-                Auburn, Maine, and I started The Maine Real Estate Experience
-                because I wanted to be the kind of agent I wish I&apos;d had
-                when I bought my first home — someone who explains things
-                clearly, doesn&apos;t push you, and actually cares about what
-                happens after closing.
+                I&apos;m Eve Ali, a Licensed Maine Realtor at The Maine Real
+                Estate Experience — a full-service agency based in Auburn, ME.
+                I focus on buyers, particularly people buying their first home,
+                because that&apos;s where I feel I can make the most difference.
               </p>
               <p className="leading-relaxed">
-                I work a lot with first-time buyers, and I know how overwhelming
-                it can feel. My goal is simple: make sure you understand
-                everything that&apos;s happening, feel good about your
-                decisions, and end up in a home that&apos;s right for you — not
-                just the first one that checks most of the boxes.
+                The Maine Real Estate Experience was built around trust,
+                integrity, and giving clients the personalized attention they
+                deserve. That&apos;s what I try to bring to every conversation
+                — listening carefully to what you actually need, and helping you
+                make decisions that are right for your life, not just for the
+                deal.
               </p>
             </div>
             <Separator />
@@ -90,6 +89,21 @@ export function About() {
                   </div>
                 </div>
               ))}
+            </div>
+            <div className="border-t border-border pt-4">
+              <p className="text-xs text-muted-foreground">
+                Part of{" "}
+                <span className="font-semibold text-foreground">
+                  The Maine Real Estate Experience
+                </span>{" "}
+                — 81 Main St, Auburn, ME 04210 &middot;{" "}
+                <a
+                  href="tel:2073452207"
+                  className="font-semibold text-foreground transition-colors hover:text-primary"
+                >
+                  (207) 345-2207
+                </a>
+              </p>
             </div>
           </div>
         </div>

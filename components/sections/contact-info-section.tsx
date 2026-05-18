@@ -4,8 +4,8 @@ const contactDetails = [
   {
     Icon: PhoneIcon,
     label: "Phone",
-    value: "(207) 777-0198",
-    href: "tel:2077770198",
+    value: "(207) 345-2207",
+    href: "tel:2073452207",
     note: "Call or text anytime",
   },
   {

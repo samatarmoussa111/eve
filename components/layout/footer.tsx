@@ -57,11 +57,11 @@ export function Footer() {
             <ul className="mt-4 flex flex-col gap-3.5">
               <li>
                 <a
-                  href="tel:2077770198"
+                  href="tel:2073452207"
                   className="flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-primary"
                 >
                   <PhoneIcon className="size-3.5 shrink-0 text-primary" />
-                  (207) 777-0198
+                  (207) 345-2207
                 </a>
               </li>
               <li>

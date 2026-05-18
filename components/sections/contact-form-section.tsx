@@ -114,9 +114,9 @@ export function ContactFormSection() {
                 </p>
               </div>
               <Button asChild className="w-full">
-                <a href="tel:2077770198">
+                <a href="tel:2073452207">
                   <PhoneIcon />
-                  (207) 777-0198
+                  (207) 345-2207
                 </a>
               </Button>
               <div className="border-t border-border pt-4">
