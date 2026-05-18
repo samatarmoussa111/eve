@@ -1,26 +1,33 @@
-import { MailIcon, PhoneIcon, ClockIcon } from "lucide-react"
+import { MailIcon, PhoneIcon, MapPinIcon, ClockIcon } from "lucide-react"
 
 const contactDetails = [
   {
     Icon: PhoneIcon,
     label: "Phone",
-    value: "(555) 234-5678",
-    href: "tel:5552345678",
-    note: "Mon–Fri, 9am–6pm CT",
+    value: "(207) 777-0198",
+    href: "tel:2077770198",
+    note: "Call or text anytime",
   },
   {
     Icon: MailIcon,
     label: "Email",
-    value: "sarah@mitchellrealty.com",
-    href: "mailto:sarah@mitchellrealty.com",
-    note: "Response within 24 hours",
+    value: "eveali@tmree.com",
+    href: "mailto:eveali@tmree.com",
+    note: "I reply within 24–48 hours",
+  },
+  {
+    Icon: MapPinIcon,
+    label: "Office",
+    value: "81 Main Street",
+    href: null,
+    note: "Auburn, Maine 04210",
   },
   {
     Icon: ClockIcon,
-    label: "Office Hours",
-    value: "Mon–Fri 9am–6pm",
+    label: "Hours",
+    value: "Mon–Fri, flexible",
     href: null,
-    note: "Evening & weekend appts available",
+    note: "Evenings & weekends by arrangement",
   },
 ]
 
@@ -28,7 +35,6 @@ const socialLinks = [
   { label: "Instagram", href: "#" },
   { label: "Facebook", href: "#" },
   { label: "LinkedIn", href: "#" },
-  { label: "YouTube", href: "#" },
 ]
 
 export function ContactInfoSection() {
@@ -57,22 +63,22 @@ export function ContactInfoSection() {
               <p className="mt-1 text-xs text-muted-foreground">{note}</p>
             </div>
           ))}
+        </div>
 
-          <div>
-            <p className="mb-3 text-[10px] font-semibold tracking-widest uppercase text-primary">
-              Follow
-            </p>
-            <div className="flex flex-wrap gap-3">
-              {socialLinks.map(({ label, href }) => (
-                <a
-                  key={label}
-                  href={href}
-                  className="border border-border px-3 py-1.5 text-[10px] font-semibold tracking-widest uppercase text-muted-foreground transition-colors hover:border-primary hover:text-primary"
-                >
-                  {label}
-                </a>
-              ))}
-            </div>
+        <div className="mt-10 border-t border-border pt-8">
+          <p className="mb-3 text-[10px] font-semibold tracking-widest uppercase text-primary">
+            Follow
+          </p>
+          <div className="flex flex-wrap gap-3">
+            {socialLinks.map(({ label, href }) => (
+              <a
+                key={label}
+                href={href}
+                className="border border-border px-3 py-1.5 text-[10px] font-semibold tracking-widest uppercase text-muted-foreground transition-colors hover:border-primary hover:text-primary"
+              >
+                {label}
+              </a>
+            ))}
           </div>
         </div>
       </div>

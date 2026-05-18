@@ -4,24 +4,24 @@ import { Separator } from "@/components/ui/separator"
 
 const values = [
   {
-    title: "Client-First Approach",
+    title: "I only work for you",
     description:
-      "Your goals, timeline, and budget are my top priority — every decision is made with your best interest in mind.",
+      "As a buyer's agent, I represent you — not the seller. My job is to protect your interests, full stop.",
   },
   {
-    title: "Deep Market Knowledge",
+    title: "I keep things simple",
     description:
-      "Ten years in Austin real estate means I know the neighborhoods, the trends, and the hidden opportunities.",
+      "Real estate has a lot of moving parts. I explain what's actually happening, in plain language, at every step.",
   },
   {
-    title: "Transparent Communication",
+    title: "I'm honest with you",
     description:
-      "No surprises. I keep you informed at every step with clear, honest, proactive communication.",
+      "If a house has problems, I'll tell you. If the price feels off, we'll talk about it. You deserve the full picture.",
   },
   {
-    title: "Strong Negotiation",
+    title: "I don't rush you",
     description:
-      "I fight for the best possible price and terms so you can buy with confidence and peace of mind.",
+      "This is one of the biggest decisions you'll make. I'll move at your pace and answer every question you have.",
   },
 ]
 
@@ -35,18 +35,18 @@ export function About() {
               <div className="flex flex-col items-center gap-3">
                 <div className="flex size-24 items-center justify-center rounded-full bg-primary/20">
                   <span className="font-heading text-3xl font-semibold text-primary/60">
-                    SM
+                    EA
                   </span>
                 </div>
                 <p className="text-[10px] font-semibold tracking-widest uppercase text-primary/40">
-                  Agent Photo
+                  Eve Ali
                 </p>
               </div>
             </div>
             <div className="absolute -right-4 top-8 bg-primary px-5 py-4 text-primary-foreground">
-              <p className="font-heading text-3xl font-semibold">10+</p>
+              <p className="font-heading text-3xl font-semibold">Maine</p>
               <p className="text-[10px] font-semibold tracking-widest uppercase opacity-80">
-                Years Experience
+                Born &amp; raised
               </p>
             </div>
           </div>
@@ -54,24 +54,27 @@ export function About() {
           <div className="flex flex-col gap-6">
             <div>
               <p className="text-[10px] font-semibold tracking-widest uppercase text-primary">
-                About Me
+                A bit about me
               </p>
               <h2 className="mt-3 font-heading text-3xl font-semibold leading-tight md:text-4xl">
-                A Buyer&apos;s Agent Who Truly Works for You
+                I got into this work because buying a home changed my life.
               </h2>
             </div>
             <div className="flex flex-col gap-4 text-muted-foreground">
               <p className="leading-relaxed">
-                I&apos;m Sarah Mitchell — a licensed real estate buyer&apos;s
-                agent based in Austin, TX. For over a decade, I&apos;ve helped
-                hundreds of buyers, including first-time homeowners, find the
-                right home at the right price.
+                Hi, I&apos;m Eve Ali. I&apos;m a buyer&apos;s agent based in
+                Auburn, Maine, and I started The Maine Real Estate Experience
+                because I wanted to be the kind of agent I wish I&apos;d had
+                when I bought my first home — someone who explains things
+                clearly, doesn&apos;t push you, and actually cares about what
+                happens after closing.
               </p>
               <p className="leading-relaxed">
-                My job is simple: represent you — and only you — throughout the
-                entire buying process. From understanding your needs to
-                negotiating your offer and guiding you through closing, I&apos;m
-                by your side every step of the way.
+                I work a lot with first-time buyers, and I know how overwhelming
+                it can feel. My goal is simple: make sure you understand
+                everything that&apos;s happening, feel good about your
+                decisions, and end up in a home that&apos;s right for you — not
+                just the first one that checks most of the boxes.
               </p>
             </div>
             <Separator />

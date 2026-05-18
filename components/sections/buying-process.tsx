@@ -11,44 +11,44 @@ const steps = [
   {
     Icon: MessageSquareIcon,
     number: "01",
-    title: "Initial Consultation",
+    title: "We talk first",
     description:
-      "We meet to discuss your goals, timeline, and budget. I answer all your questions and walk you through the entire buying process.",
+      "No commitment, no pressure. We have a conversation about what you're looking for, what your timeline is, and what's on your mind. It's also a chance for you to see if we're a good fit.",
   },
   {
     Icon: DollarSignIcon,
     number: "02",
-    title: "Get Pre-Approved",
+    title: "Figure out financing",
     description:
-      "I connect you with trusted local lenders so you know your exact buying power before we start the home search.",
+      "Before we look at homes, it helps to know what you can actually spend. I'll connect you with a lender I trust so you can get pre-approved and feel confident going in.",
   },
   {
     Icon: SearchIcon,
     number: "03",
-    title: "Home Search",
+    title: "Look at homes together",
     description:
-      "I curate listings that match your criteria and personally tour homes with you, evaluating each one with an expert eye.",
+      "I'll send you listings that match what you're after, and we'll visit homes together. I'll point out things you might not notice — good and bad — so you can make a real decision.",
   },
   {
     Icon: FileTextIcon,
     number: "04",
-    title: "Make an Offer",
+    title: "Make an offer",
     description:
-      "When we find the right home, I craft a competitive offer and negotiate the best possible price and terms on your behalf.",
+      "Found something you like? I'll look at what similar homes have sold for and help you put together an offer that makes sense — not too low to be ignored, not more than it's worth.",
   },
   {
     Icon: CheckCircleIcon,
     number: "05",
-    title: "Under Contract",
+    title: "Work through the details",
     description:
-      "I manage inspections, appraisals, and all contingencies — keeping the process on track and stress-free from start to finish.",
+      "Once you're under contract, there's inspection, appraisal, and paperwork. I'll walk you through all of it and flag anything that needs your attention so nothing catches you off guard.",
   },
   {
     Icon: KeyIcon,
     number: "06",
-    title: "Closing Day",
+    title: "Get your keys",
     description:
-      "We review all closing documents, complete the final walkthrough, and I hand you the keys to your new home.",
+      "We do a final walkthrough, you sign the closing documents, and that's it — the home is yours. I'll be there for that part too.",
   },
 ]
 
@@ -58,14 +58,15 @@ export function BuyingProcess() {
       <div className="mx-auto max-w-screen-xl px-4 md:px-6">
         <div className="mb-12 text-center md:mb-16">
           <p className="text-[10px] font-semibold tracking-widest uppercase text-primary">
-            How It Works
+            How it works
           </p>
           <h2 className="mt-3 font-heading text-3xl font-semibold leading-tight md:text-4xl">
-            The Home Buying Process
+            Here&apos;s what buying a home actually looks like
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base text-muted-foreground">
-            Buying a home doesn&apos;t have to be overwhelming. Here&apos;s
-            exactly what to expect when you work with me.
+            A lot of people find the process confusing because no one ever
+            explained it to them clearly. Here&apos;s what happens, step by
+            step, when we work together.
           </p>
         </div>
 

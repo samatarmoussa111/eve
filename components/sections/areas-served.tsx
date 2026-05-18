@@ -1,18 +1,18 @@
 import { MapPinIcon } from "lucide-react"
 
 const areas = [
-  { name: "Austin", primary: true },
-  { name: "Cedar Park", primary: false },
-  { name: "Round Rock", primary: false },
-  { name: "Georgetown", primary: false },
-  { name: "Pflugerville", primary: false },
-  { name: "Kyle", primary: false },
-  { name: "Buda", primary: false },
-  { name: "Lakeway", primary: false },
-  { name: "West Lake Hills", primary: false },
-  { name: "Rollingwood", primary: false },
-  { name: "Manor", primary: false },
-  { name: "Del Valle", primary: false },
+  { name: "Auburn", primary: true },
+  { name: "Lewiston", primary: false },
+  { name: "Portland", primary: false },
+  { name: "South Portland", primary: false },
+  { name: "Brunswick", primary: false },
+  { name: "Bath", primary: false },
+  { name: "Biddeford", primary: false },
+  { name: "Saco", primary: false },
+  { name: "Scarborough", primary: false },
+  { name: "Windham", primary: false },
+  { name: "Gray", primary: false },
+  { name: "Poland", primary: false },
 ]
 
 export function AreasServed() {
@@ -22,15 +22,16 @@ export function AreasServed() {
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div>
             <p className="text-[10px] font-semibold tracking-widest uppercase text-primary">
-              Service Area
+              Where I work
             </p>
             <h2 className="mt-3 font-heading text-3xl font-semibold leading-tight md:text-4xl">
-              Areas I Serve
+              Serving buyers across Maine
             </h2>
             <p className="mt-4 max-w-md text-base leading-relaxed text-muted-foreground">
-              I specialize in helping buyers find homes across Greater Austin
-              and the surrounding Hill Country communities. Local knowledge is
-              everything in this market.
+              I&apos;m based in Auburn and work with buyers throughout the
+              Lewiston-Auburn area, the Greater Portland region, and
+              communities along the coast and inland. If you&apos;re not sure
+              whether I cover your area, just ask.
             </p>
             <div className="mt-8 flex flex-wrap gap-2.5">
               {areas.map((area) => (
@@ -54,10 +55,10 @@ export function AreasServed() {
               <div className="flex flex-col items-center gap-3 text-center">
                 <MapPinIcon className="size-14 text-primary/30" />
                 <p className="text-[10px] font-semibold tracking-widest uppercase text-muted-foreground">
-                  Greater Austin Area
+                  State of Maine
                 </p>
                 <p className="text-xs text-muted-foreground">
-                  12 cities &amp; neighborhoods served
+                  Southern &amp; Central Maine
                 </p>
               </div>
             </div>

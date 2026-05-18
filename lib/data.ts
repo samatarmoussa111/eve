@@ -11,85 +11,91 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
-    slug: "first-time-home-buyer-guide-austin",
-    title: "The Complete First-Time Home Buyer's Guide to Austin",
+    slug: "first-time-home-buyer-guide-maine",
+    title: "What First-Time Buyers in Maine Usually Don't Know (But Should)",
     excerpt:
-      "Everything you need to know about buying your first home in Austin — from pre-approval to closing day.",
-    content: `<p>Buying your first home in Austin is an exciting milestone — and one of the biggest financial decisions you'll ever make. With the right preparation and guidance, the process doesn't have to be overwhelming.</p>
+      "Buying your first home is exciting — and also kind of overwhelming. Here's an honest look at what the process actually involves.",
+    content: `<p>A lot of first-time buyers come to me with the same feeling: "I want to buy a home, but I don't even know where to start." That's completely normal. The process isn't something most people learn about until they're in it.</p>
 
-<h2>Step 1: Get Pre-Approved</h2>
-<p>Before you start browsing listings, get pre-approved for a mortgage. This tells you exactly how much you can afford and shows sellers you're a serious buyer. I connect my clients with trusted local lenders who offer competitive rates.</p>
+<h2>Start with a conversation, not a search</h2>
+<p>Most people start by scrolling listings. I'd suggest starting by talking to someone who can give you an honest picture of what you can actually afford and what the market looks like right now. It saves a lot of time and disappointment down the line.</p>
 
-<h2>Step 2: Define Your Must-Haves</h2>
-<p>Make a list of non-negotiables: number of bedrooms, preferred neighborhoods, commute requirements, school districts. This helps narrow your search and saves valuable time in a fast-moving market.</p>
+<h2>Get pre-approved before you fall in love with a house</h2>
+<p>Pre-approval tells you two things: how much a lender is willing to lend you, and that you're serious enough for sellers to take you seriously. In Maine's market, especially in popular areas, you'll often need this before a seller will even consider an offer.</p>
 
-<h2>Step 3: Work With a Buyer's Agent</h2>
-<p>A buyer's agent works exclusively for you — at no cost, since the seller pays the commission. They have access to off-market listings, know the neighborhoods, and negotiate aggressively on your behalf.</p>
+<h2>The buyer's agent works for you — not the seller</h2>
+<p>This is something a lot of people don't realize. When you work with a buyer's agent, they represent your interests. They're not trying to sell you on a particular house. Their job is to make sure you understand what you're buying and that the price makes sense.</p>
 
-<h2>Step 4: Make a Competitive Offer</h2>
-<p>Austin's market moves fast. Your agent will help you craft an offer that's competitive without overpaying — using comparable sales data and deep market knowledge to guide your decision.</p>
+<h2>Inspections matter more than people think</h2>
+<p>Maine homes, especially older ones, can have issues that aren't obvious from a walkthrough. A good inspector will look at the foundation, the roof, the heating system, the insulation — all the things that can cost you a lot of money if they fail. Don't skip this step to be competitive. It's rarely worth it.</p>
 
-<h2>Step 5: Navigate Inspections &amp; Closing</h2>
-<p>Once under contract, you'll schedule inspections, finalize your financing, and work through any repairs or credits. Your agent coordinates this entire process so nothing falls through the cracks.</p>
+<h2>Closing costs are real and sometimes surprising</h2>
+<p>Beyond your down payment, you'll pay closing costs — things like lender fees, title insurance, and property taxes. These typically run 2–4% of the purchase price. Make sure you're budgeting for them.</p>
 
-<h2>Ready to Start?</h2>
-<p>If you're thinking about buying in Austin, let's talk. Schedule a free consultation and I'll walk you through everything you need to know — no pressure, no obligation.</p>`,
-    publishDate: "2026-04-15",
-    readTime: "8 min read",
+<h2>It's okay to take your time</h2>
+<p>The right house is out there. I've worked with buyers who found their home in two weeks and others who took eight months. Both outcomes were fine. Don't let anyone rush you into something that doesn't feel right.</p>`,
+    publishDate: "2026-04-10",
+    readTime: "7 min read",
     category: "First-Time Buyers",
-    imageAlt: "Austin neighborhood at sunrise",
+    imageAlt: "A quiet street in Auburn, Maine",
   },
   {
-    slug: "best-neighborhoods-austin-families",
-    title: "The Best Austin Neighborhoods for Families in 2026",
+    slug: "maine-towns-for-families",
+    title: "A Few Maine Towns Worth Knowing If You're Buying for Your Family",
     excerpt:
-      "Looking for great schools, safe streets, and community feel? These Austin neighborhoods top the list for families.",
-    content: `<p>Austin is home to some of Texas's most family-friendly neighborhoods — each with its own personality, school options, and community vibe. Here are the top picks for 2026.</p>
+      "Not sure where in Maine to put down roots? Here's an honest look at some towns that tend to work well for families.",
+    content: `<p>Maine has a lot of places to live, and choosing the right town for your family involves more than just the house. Schools, commute time, community feel, things for kids to do — it all adds up. Here are a few towns I know well and what makes them worth considering.</p>
 
-<h2>Cedar Park</h2>
-<p>A suburb just north of Austin, Cedar Park offers excellent Leander ISD schools, newer construction homes, and a strong sense of community. It's one of the fastest-growing areas for a reason — and home values continue to rise steadily.</p>
+<h2>Auburn</h2>
+<p>I'm based here, so I'll be upfront about that. Auburn is part of the Lewiston-Auburn metro area, which gives you access to hospitals, shops, and services without the density of a bigger city. It's affordable compared to southern Maine, and the school system has been improving steadily. If you work somewhere between Portland and Lewiston, this can be a solid middle point.</p>
 
-<h2>Round Rock</h2>
-<p>Round Rock Independent School District is consistently rated among the best in Texas. Combine that with great parks, the iconic Round Rock Donuts, and more affordable entry points, and you have a perennial family favorite.</p>
+<h2>Brunswick</h2>
+<p>Brunswick has a college-town feel — Bowdoin College is here — with a good mix of older homes, walkability, and a decent restaurant and arts scene. It's also along the coast, which matters to a lot of people. Homes tend to cost more than in the L-A area but less than Portland.</p>
 
-<h2>Lakeway</h2>
-<p>Lakeway sits on the shores of Lake Travis and offers a relaxed, resort-style lifestyle. Lake Travis ISD schools are among the top-rated in the state, and the outdoor recreational options — hiking, boating, swimming — are unmatched.</p>
+<h2>Scarborough</h2>
+<p>If proximity to Portland is important but you want more space, Scarborough is worth looking at. Good schools, access to beaches, and newer development alongside older neighborhoods. It's grown a lot in the last decade and prices reflect that.</p>
 
-<h2>Georgetown</h2>
-<p>Known as "The Most Beautiful Town Square in Texas," Georgetown combines small-town charm with fast growth. Georgetown ISD schools are highly rated, and home prices remain more accessible than closer-in Austin suburbs, making it ideal for first-time buyers with families.</p>
+<h2>Windham</h2>
+<p>A bit inland from Portland, Windham is popular with families who want more square footage and land for their money. It's suburban in feel, with good access to Sebago Lake. Schools are well-regarded.</p>
 
-<h2>How to Choose the Right Neighborhood</h2>
-<p>The right neighborhood depends on your priorities — commute, school district, home size, price point, or community feel. I help buyers find the neighborhood that checks all their boxes. Let's start the conversation.</p>`,
-    publishDate: "2026-03-22",
+<h2>Gray and Poland</h2>
+<p>If you're open to a rural setting and a longer commute, Gray and Poland offer significantly more home for the money. These are quieter towns with a strong sense of community. They work well for people who work remotely or don't mind the drive.</p>
+
+<h2>The honest take</h2>
+<p>There's no perfect town — there's the town that fits your specific situation. I'd rather spend time understanding what matters to you than push you toward a particular place. If you want to talk through the tradeoffs, I'm happy to.</p>`,
+    publishDate: "2026-03-15",
     readTime: "6 min read",
     category: "Neighborhood Guides",
-    imageAlt: "Family in a tree-lined Austin suburb",
+    imageAlt: "Tree-lined street in a Maine neighborhood",
   },
   {
-    slug: "how-to-negotiate-home-price-austin",
-    title: "How to Negotiate the Best Price on a Home in Austin",
+    slug: "making-an-offer-maine",
+    title: "Making an Offer on a House in Maine: What Actually Happens",
     excerpt:
-      "In a competitive market, smart negotiation can save you thousands. Here's how to get the best deal on your new home.",
-    content: `<p>Negotiation is one of the most valuable skills a buyer's agent brings to the table. In a market like Austin, the difference between a good deal and a great deal can be tens of thousands of dollars.</p>
+      "The offer process is something most buyers haven't done before. Here's what it looks like in practice.",
+    content: `<p>You've found a house you like. Maybe you've seen it twice, walked every room, stood in the backyard. Now what? Here's what the offer process actually involves.</p>
 
-<h2>Know the Market Value</h2>
-<p>The first step in negotiation is understanding what a home is actually worth. This means analyzing comparable sales — or "comps" — from the last 3–6 months in the same neighborhood, adjusted for size, condition, and upgrades.</p>
+<h2>We look at the numbers first</h2>
+<p>Before we talk price, I'll pull comparable sales — homes similar to this one that have sold nearby in the last few months. This tells us what the market says the house is worth, and gives us a starting point for what to offer.</p>
 
-<h2>Understand the Seller's Motivation</h2>
-<p>Is the seller in a hurry? Have they already relocated? How long has the home been on the market? These factors tell you how much leverage you have — and how aggressively to negotiate.</p>
+<h2>The offer is more than just a price</h2>
+<p>Your offer includes the price, yes, but also: how much you're putting down, your financing terms, your proposed closing date, and any contingencies you want to include — like an inspection contingency or a financing contingency. These details matter as much as the number.</p>
 
-<h2>Don't Focus Only on Price</h2>
-<p>Sometimes the best deal isn't about the lowest price — it's about favorable terms. Closing timeline, included appliances, seller-paid closing costs, and repair credits can all be worth thousands of dollars in your pocket.</p>
+<h2>Contingencies protect you</h2>
+<p>A contingency is a condition that has to be met for the sale to go through. The most common ones are an inspection contingency (you can back out if the inspection reveals serious problems) and a financing contingency (you can back out if your loan falls through). I generally recommend keeping these in, especially for first-time buyers.</p>
 
-<h2>Use Inspections Strategically</h2>
-<p>Inspection findings can be a legitimate basis for renegotiating the price or requesting seller concessions. This requires experience — not every finding is worth pushing on, and picking the right battles matters.</p>
+<h2>The seller will respond</h2>
+<p>They can accept, reject, or counter. If they counter, we look at what they changed and decide whether to accept their terms, counter again, or walk away. This back-and-forth is normal and usually doesn't take long.</p>
 
-<h2>Work With an Experienced Negotiator</h2>
-<p>My clients consistently buy homes below asking price or secure meaningful concessions. This comes from years of experience, current market data, and a deep understanding of seller psychology. Ready to negotiate your best deal? Let's talk.</p>`,
-    publishDate: "2026-02-10",
+<h2>Once accepted, you're under contract</h2>
+<p>This means both parties are committed to the sale, subject to the contingencies. You'll schedule an inspection, finalize your financing, and work toward a closing date. I'll be with you through all of it.</p>
+
+<h2>It can feel fast</h2>
+<p>From offer to closing is typically 30–45 days in Maine. It can feel like a lot is happening quickly. That's why it helps to have someone who's been through it explaining things as they come up, so nothing feels like a surprise.</p>`,
+    publishDate: "2026-02-05",
     readTime: "5 min read",
     category: "Buying Tips",
-    imageAlt: "Two people reviewing a real estate contract",
+    imageAlt: "Someone signing documents at a table",
   },
 ]
 

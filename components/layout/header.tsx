@@ -13,6 +13,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet"
+import { Logo } from "@/components/layout/logo"
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -28,14 +29,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="mx-auto flex h-16 max-w-screen-xl items-center justify-between px-4 md:px-6">
-        <Link href="/" className="flex items-center gap-2.5">
-          <span className="font-heading text-lg font-semibold tracking-wide">
-            Sarah Mitchell
-          </span>
-          <span className="hidden text-[10px] font-semibold tracking-widest uppercase text-muted-foreground sm:block">
-            Buyer&apos;s Agent
-          </span>
-        </Link>
+        <Logo />
 
         <nav className="hidden items-center gap-0.5 md:flex">
           {navLinks.map((link) => (
@@ -53,7 +47,7 @@ export function Header() {
             </Link>
           ))}
           <Button asChild size="sm" className="ml-4">
-            <Link href="/contact">Schedule Consultation</Link>
+            <Link href="/contact">Let&apos;s talk</Link>
           </Button>
         </nav>
 
@@ -83,7 +77,7 @@ export function Header() {
               <div className="mt-6">
                 <SheetClose asChild>
                   <Button asChild className="w-full">
-                    <Link href="/contact">Schedule Consultation</Link>
+                    <Link href="/contact">Let&apos;s talk</Link>
                   </Button>
                 </SheetClose>
               </div>

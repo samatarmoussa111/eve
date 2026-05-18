@@ -7,7 +7,7 @@ import { ContactInfoSection } from "@/components/sections/contact-info-section"
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with Sarah Mitchell, Austin buyer's agent. Schedule a free consultation or send a message — no pressure, no obligation.",
+    "Get in touch with Eve Ali, buyer's agent in Auburn, Maine. Whether you're ready to start or just have questions, reach out — no commitment needed.",
 }
 
 export default function ContactPage() {

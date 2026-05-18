@@ -22,11 +22,11 @@ const fontMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Sarah Mitchell | Buyer's Agent — Austin, TX",
-    template: "%s | Sarah Mitchell Real Estate",
+    default: "The Maine Real Estate Experience | Eve Ali — Buyer's Agent",
+    template: "%s | The Maine Real Estate Experience",
   },
   description:
-    "Sarah Mitchell is a dedicated real estate buyer's agent in Austin, TX. Helping home buyers find their perfect home with confidence, clarity, and expert negotiation.",
+    "Eve Ali is a buyer's agent based in Auburn, Maine. She helps people — especially first-time buyers — navigate the home buying process honestly and without pressure.",
 }
 
 export default function RootLayout({

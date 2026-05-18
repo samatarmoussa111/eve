@@ -1,12 +1,13 @@
 import Link from "next/link"
-import { MailIcon, PhoneIcon } from "lucide-react"
+import { MailIcon, PhoneIcon, MapPinIcon } from "lucide-react"
 
 import { Separator } from "@/components/ui/separator"
+import { Logo } from "@/components/layout/logo"
 
 const quickLinks = [
   { href: "/", label: "Home" },
   { href: "/#about", label: "About" },
-  { href: "/#process", label: "Process" },
+  { href: "/#process", label: "How It Works" },
   { href: "/#areas", label: "Areas Served" },
   { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },
@@ -16,7 +17,6 @@ const socialLinks = [
   { href: "#", label: "Instagram" },
   { href: "#", label: "Facebook" },
   { href: "#", label: "LinkedIn" },
-  { href: "#", label: "YouTube" },
 ]
 
 export function Footer() {
@@ -25,19 +25,16 @@ export function Footer() {
       <div className="mx-auto max-w-screen-xl px-4 py-12 md:px-6 md:py-16">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2 lg:col-span-1">
-            <p className="font-heading text-xl font-semibold">Sarah Mitchell</p>
-            <p className="mt-1 text-[10px] font-semibold tracking-widest uppercase text-muted-foreground">
-              Licensed Buyer&apos;s Agent · Austin, TX
-            </p>
+            <Logo />
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-              Helping home buyers navigate Austin&apos;s real estate market with
-              confidence and clarity since 2015.
+              Helping people buy homes in Maine — with honesty, patience, and
+              no pressure. Based in Auburn.
             </p>
           </div>
 
           <div>
             <p className="text-[10px] font-semibold tracking-widest uppercase">
-              Quick Links
+              Pages
             </p>
             <ul className="mt-4 flex flex-col gap-2.5">
               {quickLinks.map((link) => (
@@ -60,21 +57,25 @@ export function Footer() {
             <ul className="mt-4 flex flex-col gap-3.5">
               <li>
                 <a
-                  href="tel:5552345678"
+                  href="tel:2077770198"
                   className="flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-primary"
                 >
                   <PhoneIcon className="size-3.5 shrink-0 text-primary" />
-                  (555) 234-5678
+                  (207) 777-0198
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:sarah@mitchellrealty.com"
+                  href="mailto:eveali@tmree.com"
                   className="flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-primary"
                 >
                   <MailIcon className="size-3.5 shrink-0 text-primary" />
-                  sarah@mitchellrealty.com
+                  eveali@tmree.com
                 </a>
+              </li>
+              <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                <MapPinIcon className="mt-0.5 size-3.5 shrink-0 text-primary" />
+                <span>81 Main Street<br />Auburn, Maine 04210</span>
               </li>
             </ul>
           </div>
@@ -102,10 +103,10 @@ export function Footer() {
 
         <div className="flex flex-col items-center justify-between gap-2 text-xs text-muted-foreground sm:flex-row">
           <p>
-            &copy; {new Date().getFullYear()} Sarah Mitchell. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} The Maine Real Estate Experience.
+            All rights reserved.
           </p>
-          <p>Licensed in Texas &middot; DRE #TX-12345678</p>
+          <p>Licensed in Maine &middot; eveali@tmree.com</p>
         </div>
       </div>
     </footer>
